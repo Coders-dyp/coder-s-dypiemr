@@ -11,42 +11,72 @@
 .top-quote {
     text-transform: capitalize;
     font-size: 2.25rem;
+    color: white;
     font-weight: 600;
 }
 
 .footer-section-top {
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 2rem 0rem;
 }
 
 .top-auther {
+    position: relative;
     text-transform: capitalize;
     color: #e5e5e5;
     text-align: right;
-    padding: .6rem 0rem;
+    padding: .6rem 0;
     font-size: 14px;
+    left: 10rem;
 }
 
 .fa-icons {
     font-size: 1.6rem;
+    color: rgb(196, 196, 196);
+}
+.fa-icons:hover{
+    color: #FFFFFF;
+}
+
+.fa-icons-text{
+    position: absolute;
+    width: 6rem;
+    color: white;
+    display: none;
+    left: -0.5rem;
+}
+
+.fa-icons:hover~.fa-icons-text{
+    display: block;
 }
 
 .footer-section-mid {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     padding: 3rem 0rem;
 }
 
 .align-icons {
-    padding: 0rem 1.8rem;
+    position: relative;
+    width: 5rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bot-linebreak {
-    width: 60rem;  
+    width: 100%;  
 }
 .footer-section-bot {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
@@ -68,4 +98,20 @@
 .social-icon {
     font-size: 1.4rem;
     padding: 0rem 1rem;
+}
+
+@media screen and(max-width:800px) {
+    .bot-linebreak{
+        width: 100%;
+    }
+    .span1{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and(max-width:500px) {
+    .top-auther{
+        left: 0;
+        right: 1rem;
+    }
 }
