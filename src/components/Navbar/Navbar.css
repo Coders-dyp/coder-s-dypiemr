@@ -47,12 +47,16 @@
     justify-content: center;
     align-items: center;
     list-style: none;
+
 }
 
 .app_navbar-links li {
     margin: 0 1rem;
     cursor: pointer;
     user-select: none;
+    text-decoration: none;
+    color: whitesmoke;
+
 }
 
 .app_navbar-links li:hover {
@@ -70,6 +74,7 @@
     margin: 0 1rem;
     text-decoration: none;
     transition: .5s ease;
+    color: whitesmoke;
 }
 
 .app_navbar-login a:hover {

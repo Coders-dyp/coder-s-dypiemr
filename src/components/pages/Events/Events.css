@@ -1,0 +1,49 @@
+.card a{
+    text-decoration: none;
+    color: black;
+
+}
+/* 
+.container{
+    font-family: Varela Round,sans-serif;
+
+} */
+ 
+/* .card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0, 253)!important;
+} */
+
+.card{
+    /* flex-wrap: wrap; */
+    margin: 20px;
+
+}
+
+.container .card p{
+    background: linear-gradient(to bottom, #000000,#9b9b9b);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+
+.container h1{
+    font-family: 'Courier New', Courier, monospace;
+    /* font-weight: bolder; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+    margin: 20px;
+}
+
+/* .overflow{
+    overflow: hidden;
+
+}
+.card-img-top{
+    transform:scale(1);
+    transition: tranform 0.5s ease; 
+}
+
+.card-img-top:hover{
+    transform:scale(1.8);
+} */
