@@ -51,7 +51,7 @@
 }
 
 .app_navbar-links li {
-    margin: 0 1rem;
+    margin: 0.1rem;
     cursor: pointer;
     user-select: none;
     text-decoration: none;
