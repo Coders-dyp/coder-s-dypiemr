@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: #141414;
-    height: 26rem;
+    height: auto;
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
@@ -13,6 +13,7 @@
     font-size: 2.25rem;
     color: white;
     font-weight: 600;
+    white-space: nowrap;
 }
 
 .footer-section-top {
@@ -84,7 +85,7 @@
 }
 
 .span1 {
-    padding-top: 1rem;
+    font-size: 1rem;
     text-transform: capitalize;
     color: #e5e5e5;
 }
@@ -100,18 +101,21 @@
     padding: 0rem 1rem;
 }
 
-@media screen and(max-width:800px) {
+@media screen and (max-width:800px) {
     .bot-linebreak{
         width: 100%;
     }
     .span1{
-        font-size: 0.5rem;
+        font-size: 0.75rem;
     }
 }
 
-@media screen and(max-width:500px) {
+@media screen and (max-width:500px) {
     .top-auther{
         left: 0;
         right: 1rem;
+    }
+    .top-quote {
+        font-size: 2rem;
     }
 }

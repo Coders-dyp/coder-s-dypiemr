@@ -49,6 +49,7 @@ form {
   letter-spacing: 7px;
   text-align: center;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .underline {
@@ -182,6 +183,9 @@ textarea {
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 26px;
+  }
+  .cont-heading{
+    font-size: 18px;
   }
   
   .underline {
